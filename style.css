@@ -1,0 +1,110 @@
+.marvel
+{
+    margin-top: 3%;
+    height: 80px;
+    width: 1300px;
+    border: 7px solid red transparent;
+    background-color:rgba(0, 0,0, 0.6);
+}
+#float {
+    position: relative;
+    -webkit-animation: floatBubble 2s infinite  normal ease-out;
+    animation: floatBubble 9s infinite  normal ease-out;
+}
+@-webkit-keyframes floatBubble {
+    0% {
+        right:10%;
+    }
+    50% {
+      right:-60%;
+  }
+    100% {
+        right: 10%;
+    }
+}
+@keyframes floatBubble {
+  0% {
+    right:10%;
+}
+50% {
+  right:-60%;
+}
+100% {
+    right: 10%;
+}
+}
+#float
+{
+  margin-left: 10%;
+}
+
+.m
+{
+    width: 1300px;
+    margin: auto;
+    background-color:rgba(0, 0,0, 0.6);
+    display: flex;
+    justify-content: space-evenly;
+   
+
+}
+.villans
+{
+    width: 1300px;
+    margin: auto;
+    background-color:rgba(0, 0,0, 0.6);
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.g
+{
+    width: 1300px;
+    margin: auto;
+    background-color:rgba(0, 0,0, 0.6);
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.b
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    width: 1300px;
+    height: 1000px;
+    align-items:center;
+    
+}
+#kar {
+    position: relative;
+    -webkit-animation: floatBubble 2s infinite  normal ease-out;
+    animation: floatBubble 7s infinite  normal ease-out;
+}
+@-webkit-keyframes floatBubble {
+    0% {
+        right:10%;
+    }
+    50% {
+      right:-60%;
+  }
+    100% {
+        right: 10%;
+    }
+}
+@keyframes floatBubble {
+  0% {
+    right:10%;
+}
+50% {
+  right:-60%;
+}
+100% {
+    right: 10%;
+}
+}
+#kar
+{
+  margin-left: 10%;
+}
+
